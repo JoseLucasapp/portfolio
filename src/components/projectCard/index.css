@@ -1,5 +1,5 @@
 .project-card-main {
-    box-shadow: 2px 2px 0px 2px var(--color4);
+    box-shadow: 2px 2px 0px 2px var(--color3);
     transform: scale(0.9);
     width: 220px;
     height: 300px;
@@ -27,4 +27,19 @@
     height: 200px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+
+@media (max-width: 1000px) {
+
+    .project-card-main {
+        box-shadow: 2px 2px 0px 2px var(--color3);
+        transform: scale(0.9);
+        width: 220px;
+        height: 300px;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 15px;
+    }
 }

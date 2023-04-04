@@ -1,4 +1,45 @@
 .main-footer {
     background-color: var(--color5);
-    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+.main-footer .images {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+    justify-content: space-between;
+}
+
+.main-footer img {
+    width: 60%;
+    height: 60%;
+}
+
+.main-footer .linkedin img {
+    width: 90%;
+    height: 90%;
+}
+
+.main-footer .linkedin {
+    width: 70px;
+    height: 80px;
+}
+
+.main-footer div {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }

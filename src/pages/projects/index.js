@@ -5,6 +5,7 @@ import './index.css'
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import Footer from "../../components/footer";
 
 const Projects = () => {
     const [scrollx, setScrollX] = useState(-200)
@@ -47,6 +48,7 @@ const Projects = () => {
                     <ProjectCard name="Lucas" />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
