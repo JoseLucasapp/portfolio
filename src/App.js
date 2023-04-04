@@ -1,6 +1,6 @@
 import './App.css';
 
-import Projects from './pages/projects/index.tsx';
+import Projects from './pages/projects';
 
 function App() {
   return (
